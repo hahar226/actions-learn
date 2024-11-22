@@ -1,0 +1,12 @@
+name: upload-artifact
+run-name: upload a artifact
+on: workflow_dispatch
+jobs:
+  upload-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello > hello.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hello
+          path: hello.txt
