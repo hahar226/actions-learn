@@ -1,6 +1,5 @@
 name: 打包React项目
 on: 
-  - push
   - workflow_dispatch
 
 permissions:

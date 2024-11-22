@@ -1,6 +1,5 @@
 name: 构建Docker镜像并推送到Docker Hub
 on: 
-  - push
   - workflow_dispatch
 
 
