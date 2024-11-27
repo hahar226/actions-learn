@@ -1,6 +1,6 @@
 name: Simple Go Build
  
-on: workflow-dispatch
+on: workflow_dispatch
  
 jobs:
   build:
